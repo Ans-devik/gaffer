@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Services | AI Football Analytics</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+<body>
+
+  <!-- NAVBAR (same as index.html) -->
+  <header class="navbar">
+    <div class="logo">AI Football</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html" class="active">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="contact.html" class="cta-btn">Get in touch</a>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>What we offer</h1>
+      <p class="lead">AI-driven football analytics — from formations to pitch control and player workrate.</p>
+    </div>
+  </section>
+
+  <!-- SERVICES GRID -->
+  <section class="services-grid container" aria-label="Services">
+    <article class="service-card" data-aos="fade-up">
+      <div class="icon">🏟️</div>
+      <h2>Formation Finder</h2>
+      <p>Automatically detect team formations (e.g., 4-4-2, 4-3-3) from tracking data using clustering methods.</p>
+      <a class="card-cta" href="dashboard.html">View demo</a>
+    </article>
+
+    <article class="service-card" data-aos="fade-up" data-aos-delay="80">
+      <div class="icon">🗺️</div>
+      <h2>Pitch Control Heatmaps</h2>
+      <p>Calculate and visualize which team controls regions of the pitch at any moment — presented as coloured heatmaps.</p>
+      <a class="card-cta" href="dashboard.html">See example</a>
+    </article>
+
+    <article class="service-card" data-aos="fade-up" data-aos-delay="160">
+      <div class="icon">⚡</div>
+      <h2>Player Performance</h2>
+      <p>Metrics like distance covered, high-intensity sprints and fatigue indicators to help substitution decisions.</p>
+      <a class="card-cta" href="dashboard.html">Open report</a>
+    </article>
+
+    <article class="service-card" data-aos="fade-up" data-aos-delay="240">
+      <div class="icon">📈</div>
+      <h2>Tactical Event Detection</h2>
+      <p>Recognize events such as coordinated high-press, broken defensive lines or counter-attacks using ML models.</p>
+      <a class="card-cta" href="dashboard.html">Explore</a>
+    </article>
+
+    <article class="service-card" data-aos="fade-up" data-aos-delay="320">
+      <div class="icon">🎯</div>
+      <h2>Set-piece Analysis</h2>
+      <p>Analyze patterns and success rates from corners, free-kicks and set-piece routines to improve planning.</p>
+      <a class="card-cta" href="dashboard.html">Learn more</a>
+    </article>
+
+    <article class="service-card" data-aos="fade-up" data-aos-delay="400">
+      <div class="icon">🔁</div>
+      <h2>Animations & Exports</h2>
+      <p>Animated replays and exportable visual assets (GIFs, images) for presentations and scouting reports.</p>
+      <a class="card-cta" href="dashboard.html">Export options</a>
+    </article>
+  </section>
+
+  <!-- CTA / Contact -->
+  <section class="contact-cta container" data-aos="fade-up">
+    <h2>Want a custom demo?</h2>
+    <p>Share a match file or contact us — we’ll run a demo and show you tactical outputs specific to your team.</p>
+    <a href="contact.html" class="btn-primary">Request Demo</a>
+  </section>
+
+  <!-- FOOTER (same as index) -->
+  <footer>
+    <p>© 2025 AI Football Analytics</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true, duration: 700 });
+  </script>
+
+</body>
+</html>
